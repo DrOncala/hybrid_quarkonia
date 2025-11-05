@@ -2,6 +2,9 @@
 
 this repository contains the equations needed to solve the spectrum and wavefunctions for quarkonium and hybrid states. 
 
+DOI: https://doi.org/10.1103/PhysRevD.96.014004
+
+
 named 
 
 H1  --  the hybrid with wave-function  --(  Ppm  )--  and states   (s/d)_1,(p/f)_2,...
