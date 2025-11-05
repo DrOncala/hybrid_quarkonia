@@ -16,8 +16,8 @@ H3  --  the hybrid with wave-function  --(  Pplus0  )--  and states   p_0
   decoupled hybrid at J=0 with Sigma_u^- potential, 
 
 
-![Description](spectrumC.png)
+![Description](fig/spectrumC.png)
 
-![Description](spectrumB.png)
+![Description](fig/spectrumB.png)
 
-![Description](Vstatic.png)
+![Description](fig/Vstatic.png)
