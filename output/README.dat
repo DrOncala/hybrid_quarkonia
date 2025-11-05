@@ -1,0 +1,95 @@
+quarkonum
+for quarkonium at m^0 with \Sigma_g^+ potential, 
+we show spectrum that includs:
+#   1  mass          (quark mass in GeV)
+#   2  L             (angular momentum quantum number)
+#   3  n             (principal quantum number)
+#   4  Energy_Q      (Energy in GeV)
+#   5  Int Y_Q x Y_Q (Integral for expected value of position (x); in GeV^-1)
+#   6  Int Y_Q Y_Q   (Normalization integral, dimensionless)
+
+
+hybridPplus0
+for decoupled hybrid at J=0 with Sigma_u^- potential, 
+named p_0 also named (H3),
+we show spectrum that includs:
+#   1  mass          (quark mass in GeV)
+#   2  J             (total angular momentum)
+#   3  n_H           (principal quantum number)
+#   4  Energy_H      (Hybrid energy in GeV)
+#   5  Int Y_H x Y_H (Integral for expected value of position (x); in GeV^-1)
+#   6  Int Y_H Y_H   (Normalization integral, dimensionless)
+we show decay that includs:
+#   1  mass        (GeV)
+#   2  J           (hybrid angular momentum, fixed = 0)
+#   3  n_H         (hybrid principal quantum number)
+#   4  L           (quarkonium angular momentum)
+#   5  n_Q         (quarkonium principal quantum number)
+#   6  E_H         (hybrid energy in GeV)
+#   7  E_Q         (quarkonium energy in GeV)
+#   8  DeltaE      (E_H - E_Q in GeV)
+#   9  Int_HxQ     (overlap integral with r factor)
+#  10  Int_HQ      (wavefunction overlap)
+#  11  Int_QxQ     (<r> expectation for quarkonium)
+#  12  Int_QQ      (quarkonium normalization test)
+#  13  C           (3*(0.215*<r>_Q - 0.028)/DeltaE)
+being C the coefficient of the highest error source: confining vs coulomb potential. 
+for decay we shall consider C < e-01
+
+hybridPplus0
+for decoupled hybrid at J>0 and J=L with Pi_u potential, 
+named p_1,d_2,... also named (H2),
+we show spectrum that includs:
+#   1  mass          (quark mass in GeV)
+#   2  J             (total angular momentum)
+#   3  n_H           (principal quantum number)
+#   4  Energy_H      (Hybrid energy in GeV)
+#   5  Int Y_H x Y_H (Integral for expected value of position (x); in GeV^-1)
+#   6  Int Y_H Y_H   (Normalization integral, dimensionless)
+we show decay that includs:
+#   1  mass        (GeV)
+#   2  J           (hybrid angular momentum)
+#   3  n_H         (hybrid principal quantum number)
+#   4  L           (quarkonium angular momentum)
+#   5  n_Q         (quarkonium principal quantum number)
+#   6  E_H         (hybrid energy in GeV)
+#   7  E_Q         (quarkonium energy in GeV)
+#   8  DeltaE           (E_H - E_Q in GeV)
+#   9  Int Y_H x Y_Q    (overlap integral)
+#  10  Int Y_H Y_Q      (wavefunction overlap)
+#  11  Int Y_Q x Y_Q    (expectation value for quarkonium)
+#  12  C                (C = 3*(0.215*<r>_Q - 0.028)/DeltaE)
+being C the coefficient of the highest error source: confining vs coulomb potential. 
+for decay we shall consider C < e-01
+
+hybridPpm
+for coupled hybrid at J>0 and J=L\pm1 with Pi_u and Sigma_u^- potential, 
+named (s/d)_1,(p/f)_2,... also named (H1),
+we show spectrum that includs:
+#   1  mass         (quark mass in GeV)
+#   2  J            (total angular momentum)
+#   3  n_H          (principal quantum number)
+#   4  Energy_Hpm   (Hybrid coupled-state energy in GeV)
+#   5  Int Y_Hp x Y_Hp       (Integral for expected value of (x); in GeV^-1)
+#   6  Int Y_Hp x Y_Hm       (Integral for expected value of (x); in GeV^-1)
+#   7  Int Y_Hm x Y_Hm       (Integral for expected value of (x); in GeV^-1)
+#   8  Int Y_Hp Y_Hp         (Integral for normalization P+)
+#   9  Int Y_Hp Y_Hm         (Integral for cross term P+ P-)
+#  10  Int Y_Hm Y_Hm         (Integral for normalization P-)
+we show decay that includs:
+#   1  mass       (GeV)
+#   2  J          (hybrid angular momentum)
+#   3  n_H        (hybrid principal quantum number)
+#   4  L          (quarkonium angular momentum)
+#   5  n_Q        (quarkonium principal quantum number)
+#   6  E_H        (hybrid energy, GeV)
+#   7  E_Q        (quarkonium energy, GeV)
+#   8  DeltaE     (E_H - E_Q, GeV)
+#   9  Int_Hp x Q (Hp overlap integral)
+#  10  Int_Hm x Q (Hm overlap integral)
+#  11  Int_Hp Q   (Hp wavefunction overlap)
+#  12  Int_Hm Q   (Hm wavefunction overlap)
+#  13  Int_QxQ    (<r>_Q, expectation value)
+#  14  C          (C = 3*(0.215*<r>_Q - 0.028)/DeltaE)
+being C the coefficient of the highest error source: confining vs coulomb potential. 
+for decay we shall consider C < e-01
