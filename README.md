@@ -18,4 +18,6 @@ H3  --  the hybrid with wave-function  --(  Pplus0  )--  and states   p_0
 
 ![Description](spectrumC.png)
 
-![Description](images/figure1.png)
+![Description](spectrumC.png)
+
+![Description](Vstatic.png)
