@@ -109,7 +109,7 @@ the results include:
 | 9 | `Int_YHpYHm` | $\int P^{+}(r) \ P^{-}(r) dr$ — Hybrid cross term integral | dimensionless |
 | 10 | `Int_YHmYHm` | $\int P^{-}(r) \ P^{-}(r) dr$ — Hybrid normalization component | dimensionless |
 > **Note:**  
-> We compute `Int_YHpYHm` but is not included in the normalization of the hybrid coupled state.
+> We name $P^{+}$ and $P^{-}$ the two components of the hybrid wave function.
 
 #### Decay file columns
 | # | Quantity | Description | Units |
@@ -140,4 +140,5 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
