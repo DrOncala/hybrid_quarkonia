@@ -19,6 +19,7 @@ Vname_H = '\Pi_u(braaten)';
 results_H = [];    % matrix to store results
 
 % Loop over quark masses
+addpath('./source')
 for im = 1:length(masses)
     mass = masses(im);
 
@@ -39,7 +40,7 @@ for im = 1:length(masses)
             fprintf('mass = %.4f GeV | J = %d | n_H = %d | E = %.6f GeV\n', ...
                     mass, J, index_n_H, Energy_H0);
 
-            % Store results: [mass, J, n_H, Energy, <x>, ?Y²dx]
+            % Store results: [mass, J, n_H, Energy, <x>, ?YÂ²dx]
             results_H = [results_H; mass, J, index_n_H, Energy_H0, Int_H0xH0, Int_H0H0];
         end
     end
@@ -78,3 +79,4 @@ end
 fclose(fileID);
 
 fprintf('Results saved in: %s\n', filename);
+
