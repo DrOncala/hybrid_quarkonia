@@ -30,6 +30,7 @@ end
 disp('**************************************************')
 
 % Loop over masses
+addpath('./source')
 for im = 1:length(masses)
     mass = masses(im);
 
@@ -82,3 +83,4 @@ end
 fclose(fileID);
 
 fprintf('Results saved in: %s\n', filename);
+
