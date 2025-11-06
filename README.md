@@ -21,7 +21,7 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 
 
 - **`*_spectrum.m`**  
-  Generates the corresponding **`_spectrum.dat`** files for both **quarkonium** and **hybrid** states.  
+  Generates the corresponding **`*_spectrum.dat`** files for both **quarkonium** and **hybrid** states.  
   The output includes the **energy levels** and the **expected radial values** ⟨r⟩.
 
 - **`*_decay.m`**  
