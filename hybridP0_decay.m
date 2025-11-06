@@ -28,6 +28,7 @@ disp('**************************************************')
 disp('Computing overlaps Hybrid(\Pi_u) to Quarkonium(\Sigma_g^+) ...')
 
 % Loop over quark masses
+addpath('./source')
 for im = 1:length(masses)
     mass = masses(im);
 
@@ -116,3 +117,4 @@ end
 fclose(fileID);
 
 fprintf('Results saved in: %s\n', filename);
+
