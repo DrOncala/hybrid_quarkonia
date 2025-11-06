@@ -24,6 +24,18 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 </details>
 
 <details>
+<summary><b>sources</b></summary>
+
+- **`_equations.m`**  
+  Contains the Schrödinger equations that describe each state.  
+  These functions are used by the main files.
+  
+- **`_.m`**  
+  Description.
+
+</details>
+
+<details>
 <summary><b>Output folders</b></summary>
 
 - **`output/`** – Numerical results (spectrum and decay data files).  
