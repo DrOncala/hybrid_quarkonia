@@ -59,7 +59,7 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 
 | Charmonium Spectrum | Bottomonium Spectrum | Static Potentials |
 |:--------------------:|:--------------------:|:------------------:|
-| ![Charmonium](fig/spectrumC.png) | ![Bottomonium](fig/spectrumB.png) | ![Potentials](fig/Vstatic.png) |
+| ![Charmonium](figures/spectrumC.png) | ![Bottomonium](figures/spectrumB.png) | ![Potentials](figures/Vstatic.png) |
 
 ---
 
