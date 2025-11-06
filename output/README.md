@@ -35,7 +35,7 @@ For the **decoupled hybrid** at $J=0$ with the $\Sigma_u^-$ potential
 | # | Quantity | Description | Units |
 |---|-----------|--------------|--------|
 | 1 | `mass` | Quark mass | GeV |
-| 2 | `J` | Hybrid total angular momentum (fixed = 0) | — |
+| 2 | `J` | Hybrid total angular momentum (fixed at J = 0) | — |
 | 3 | `n_H` | Hybrid principal quantum number | — |
 | 4 | `L` | Quarkonium angular momentum | — |
 | 5 | `n_Q` | Quarkonium principal quantum number | — |
@@ -140,6 +140,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
