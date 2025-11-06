@@ -11,8 +11,8 @@ the spectrum file contains the following columns:
 | 2 | `L` | Angular momentum quantum number | — |
 | 3 | `n` | Principal quantum number | — |
 | 4 | `Energy_Q` | Energy eigenvalue | GeV |
-| 5 | `Int_YQxYQ` | $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — expectation value of position $\langle r \rangle$ | GeV⁻¹ |
-| 6 | `Int_YQYQ` | $\int Y_Q(r) \ Y_Q(r) \ dr$ — normalization test | dimensionless |
+| 5 | `Int_YQxYQ` | $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium expectation value of position $\langle r \rangle$ | GeV⁻¹ |
+| 6 | `Int_YQYQ` | $\int Y_Q(r) \ Y_Q(r) \ dr$ — Quarkonium normalization test | dimensionless |
 
 ---
 
@@ -140,6 +140,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
