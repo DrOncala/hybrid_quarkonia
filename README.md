@@ -11,15 +11,17 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 
 - **`_equations.m`**  
   Contains the Schrödinger equations that describe each state.  
-  These functions are used by the next two files. And uses \sources and "potential.m".  <span style="color:red">(_equations.m and potential.m fills shoud go inside "\sources")</span>
+  These functions are used by the next two files and depend on the files inside the `\sources` folder — particularly **`potential.m`**.  
+  <span style="color:red">(`_equations.m` and `potential.m` should be placed inside the `\sources` directory.)</span>
 
 - **`_spectrum.m`**  
-  Generates the corresponding `_spectrum.dat` files for quarkonium and hybrid states.  
-  The output includes **energy levels** and **expected radial values** ⟨r⟩.
+  Generates the corresponding **`_spectrum.dat`** files for both **quarkonium** and **hybrid** states.  
+  The output includes the **energy levels** and the **expected radial values** ⟨r⟩.
 
 - **`_decay.m`**  
-  Produces the `_decay.dat` files for hybrid states.  
-  The output contains **overlap integrals** required for **hybrid → quarkonium** decay calculations.
+  Produces the **`_decay.dat`** files for hybrid states.  
+  The output contains the **overlap integrals** required for **hybrid → quarkonium** decay calculations.
+
 
 </details>
 
