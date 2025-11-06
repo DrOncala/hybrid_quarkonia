@@ -29,6 +29,7 @@ disp('**************************************************')
 disp('Computing coupled hybrid states for potentials \Sigma_u^- and \Pi_u ...')
 
 % Loop over quark masses
+addpath('./source')
 for im = 1:length(masses)
     mass = masses(im);
 
@@ -98,3 +99,4 @@ end
 fclose(fileID);
 
 fprintf('results saved in: %s\n', filename);
+
