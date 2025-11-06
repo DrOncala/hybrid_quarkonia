@@ -16,7 +16,7 @@ This folder contains the **Excel tables** and a **PDF printout** summarizing the
 
 ## Column Definitions
 
-Below is a detailed explanation of the main columns appearing in the decay tables.
+This section defines all quantities appearing in the decay tables and clarifies how spin-conserved and spin-flip transitions are treated in the computation of the hybrid → quarkonium decay widths.
 
 ### General Quantities
 
@@ -24,7 +24,7 @@ Below is a detailed explanation of the main columns appearing in the decay table
 |-----------------|----------|---------------|
 | **ΔE** | Energy difference between initial (hybrid) and final (quarkonium) states | MeV |
 | **α (strong coupling)** | QCD coupling constant used in decay rate formulas | — |
-| **$C^2 K^2$** | Angular coefficient from selection rules | dimensionless |
+| **C²** or **K²** | Coefficients encoding the angular momentum integral between hybrid and quarkonium states | dimensionless |
 | **INT⟨i r f⟩** | Radial overlap integral between initial and final wave functions, without angular coefficients | GeV⁻¹ |
 | **Γ** | Computed decay rate | MeV |
 | **𝒱** | Defined as *$(E_i − ⟨i|V|i⟩) + (E_f − ⟨f|V|f⟩)$* | GeV |
@@ -39,7 +39,15 @@ Below is a detailed explanation of the main columns appearing in the decay table
 
 ---
 
-### Spin-Dependent Definitions
+
+
+### Notes
+- The **last columns** show the **error components** as estimated in **Equations (53)** and **(54)** of the reference.  
+- **Red values** correspond to cases with **errors greater than 100%**.  
+- **Black values** are those **included in the draft**.  
+- **Blue values** are those **added to the identification table** in the draft.
+- Quantities marked with “*” are **computed directly from numerical wave-function overlaps**.
+- For transitions involving **two wave functions**, the integrals are evaluated symmetrically. 
 
 #### From **Hybrid Spin 0**
 - **Spin-conserved:**  
@@ -57,27 +65,7 @@ Below is a detailed explanation of the main columns appearing in the decay table
   ⟨i r f⟩ = |INT⟨i r f⟩| (without K²)  
   — used for **multip** term.
 
----
 
-### Notes
-- Quantities marked with “*” are **computed directly from numerical wave-function overlaps**.  
-- For transitions involving **two wave functions**, the integrals are evaluated symmetrically.  
-- The coefficients **C²** or **K²** encode the angular momentum coupling between hybrid and quarkonium states.
-
----
-
-**Summary:**  
-This section defines all quantities appearing in the decay tables and clarifies how spin-conserved and spin-flip transitions are treated in the computation of the hybrid → quarkonium decay widths.
-
-
-## Column Notes
-
-- The **last columns** show the **error components** as estimated in **Equations (53)** and **(54)** of the reference.  
-- **Red values** correspond to cases with **errors greater than 100%**.  
-- **Black values** are those **included in the draft**.  
-- **Blue values** are those **added to the identification table** in the draft.
-
----
 
 ## Additional Pages
 
