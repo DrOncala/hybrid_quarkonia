@@ -9,17 +9,6 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 <details>
 <summary><b>Main scripts</b></summary>
 
-- **`potential.m`**  🟥
-  Defines the **static potentials** used in the calculations.
-  **⚠️ Note:** `potential.m` should be placed inside the `\sources` directory.
-
-- **`*_equations.m`**  🟥
-  Contains the Schrödinger equations that describe each state.  
-  These functions are used by the next two files and depend on the files inside the `\sources` folder — particularly **`potential.m`**.  
-  **⚠️ Note:** `*_equations.m` should be placed inside the `\sources` directory.
-
-
-
 - **`*_spectrum.m`**  
   Generates the corresponding **`*_spectrum.dat`** files for both **quarkonium** and **hybrid** states.  
   The output includes the **energy levels** and the **expected radial values** ⟨r⟩.
