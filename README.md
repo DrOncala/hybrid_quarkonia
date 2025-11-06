@@ -40,7 +40,7 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
   **Phys. Rev. D 96, 014004 (2017)**  
   [https://doi.org/10.1103/PhysRevD.96.014004](https://doi.org/10.1103/PhysRevD.96.014004)
 
-- Hybrid → quarkonium decay framework:  
+- Hybrid to quarkonium decay framework:  
   **DOI:** _(to be added)_
 
 ---
