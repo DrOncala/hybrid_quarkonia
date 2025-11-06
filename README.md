@@ -13,19 +13,19 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
   Defines the **static potentials** used in the calculations.
   **⚠️🟥 Note:** `potential.m` should be placed inside the `\sources` directory.
 
-- **`_equations.m`**  
+- **`*_equations.m`**  
   Contains the Schrödinger equations that describe each state.  
   These functions are used by the next two files and depend on the files inside the `\sources` folder — particularly **`potential.m`**.  
-  **⚠️🟥 Note:** `_equations.m` should be placed inside the `\sources` directory.
+  **⚠️🟥 Note:** `*_equations.m` should be placed inside the `\sources` directory.
 
 
 
-- **`_spectrum.m`**  
+- **`*_spectrum.m`**  
   Generates the corresponding **`_spectrum.dat`** files for both **quarkonium** and **hybrid** states.  
   The output includes the **energy levels** and the **expected radial values** ⟨r⟩.
 
-- **`_decay.m`**  
-  Produces the **`_decay.dat`** files for hybrid states.  
+- **`*_decay.m`**  
+  Produces the **`*_decay.dat`** files for hybrid states.  
   The output contains the **overlap integrals** required for **hybrid → quarkonium** decay calculations.
 
 
@@ -34,14 +34,14 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 <details>
 <summary><b>Sources folder</b></summary>
 
-- **`_equations.m`**  
+- **`*_equations.m`**  
   Contains the Schrödinger equations that describe each state, including the definition of the **matrix potentials** required for each configuration.  
   These functions are called by the main files.
 
 - **`potential.m`**  
   Defines the **static potentials** used in the calculations.
 
-- **`_.m`**  
+- **`*_.m`**  
   Implements the **numerical methods** used to compute the **eigenvalues** and **eigenfunctions** of the Schrödinger equations,  
   including the treatment of **matrix (m×m) dimension potentials** and **non-diagonal coupling terms**.  
   These functions are called by `_equations.m`.
@@ -52,7 +52,7 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 <details>
 <summary><b>Output folder</b></summary>
 
-- **`_spectrum.dat`** and **`_decay.dat`** – List of numerical results (spectrum and decay data files for each state).  
+- **`*_spectrum.dat`** and **`*_decay.dat`** – List of numerical results (spectrum and decay data files for each state).  
 - **`decay_tables/`** – Summarized tables with relevant transition channels: decay width computations and errors analysis. In **Excel** with color codes and printed in **PDF** format.  
 
 </details>
