@@ -26,16 +26,20 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 <details>
 <summary><b>Sources folder</b></summary>
 
+<summary><b>Main scripts</b></summary>
+
 - **`_equations.m`**  
-  Contains the Schrödinger equations that describe each state.  and definition of  matricial potentials needed for each state.
+  Contains the Schrödinger equations that describe each state, including the definition of the **matrix potentials** required for each configuration.  
   These functions are called by the main files.
 
 - **`potential.m`**  
-  Definition of static potentials used.
-  
+  Defines the **static potentials** used in the calculations.
+
 - **`_.m`**  
-  Numerical methods to compuete eigenvalues and eigenfunctions for shroedinger equations with matricial mxm dimension potentials and non diaganal terms.
+  Implements the **numerical methods** used to compute the **eigenvalues** and **eigenfunctions** of the Schrödinger equations,  
+  including the treatment of **matrix (m×m) dimension potentials** and **non-diagonal coupling terms**.  
   These functions are called by `_equations.m`.
+
 
 </details>
 
