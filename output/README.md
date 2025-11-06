@@ -25,7 +25,7 @@ For the **decoupled hybrid** at $J=0$ with the $\Sigma_u^-$ potential
 | # | Quantity | Description | Units |
 |---|-----------|--------------|--------|
 | 1 | `mass` | Quark mass | GeV |
-| 2 | `J` | Total angular momentum (fixed = 0) | — |
+| 2 | `J` | Total angular momentum (fixed at J = 0) | — |
 | 3 | `n_H` | Principal quantum number | — |
 | 4 | `Energy_H` | Hybrid energy | GeV |
 | 5 | `Int_YHxYH` | $\int Y_H(r) \ r \ Y_H(r) \ dr$ — expectation of position | GeV⁻¹ |
@@ -140,6 +140,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
