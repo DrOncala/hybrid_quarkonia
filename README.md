@@ -24,7 +24,7 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 </details>
 
 <details>
-<summary><b>sources</b></summary>
+<summary><b>Sources folder</b></summary>
 
 - **`_equations.m`**  
   Contains the Schrödinger equations that describe each state.  
@@ -36,11 +36,10 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 </details>
 
 <details>
-<summary><b>Output folders</b></summary>
+<summary><b>Output folder</b></summary>
 
-- **`output/`** – Numerical results (spectrum and decay data files).  
+- **`output.dat`** – Numerical results (spectrum and decay data files).  
 - **`decay_tables/`** – Summarized tables in **Excel** and **PDF** format.  
-- **`fig/`** – Illustrative plots of potentials and spectra.
 
 </details>
 
