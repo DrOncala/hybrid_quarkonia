@@ -22,18 +22,18 @@ Below is a detailed explanation of the main columns appearing in the decay table
 
 | Symbol / Column | Meaning | Units / Notes |
 |-----------------|----------|---------------|
-| **ΔE − E′** | Energy difference between initial and final states | MeV |
+| **ΔE** | Energy difference between initial (hybrid) and final (quarkonium) states | MeV |
 | **α (strong coupling)** | QCD coupling constant used in decay rate formulas | — |
-| **C²** | Angular coefficient from selection rules | dimensionless |
+| **$C^2 K^2$** | Angular coefficient from selection rules | dimensionless |
 | **INT⟨i r f⟩** | Radial overlap integral between initial and final wave functions, without angular coefficients | GeV⁻¹ |
 | **Γ** | Computed decay rate | MeV |
-| **𝒱** | Defined as *(Eᵢ − ⟨i Vᵢ⟩) + (E_f − ⟨f V_f⟩)* | GeV |
+| **𝒱** | Defined as *$(E_i − ⟨i|V|i⟩) + (E_f − ⟨f|V|f⟩)$* | GeV |
 | **errorE** | Estimated energy uncertainty using the expressions: <br>• 3 × ARREL(2) × 110 / Δ  or 3 × ARREL(2) × 33 / Δ | dimensionless |
-| **α das(Δ/1000)/α das** | Variation of the running coupling α das with Δ | dimensionless |
+| **α das(ΔE/1000)/α das** | Variation of the running coupling α das with ΔE | dimensionless |
 | **multip** | Transition strength term:<br>• (⟨i | r | f⟩ Δ)² / 120 for spin-conserved transitions<br>• (⟨i | r | f⟩ Δ)² / 24 for spin-flip transitions | dimensionless |
-| **cornell** | Empirical correction term: 3 × (0.215 × ⟨f | r | f⟩ − 0.028) / (Δ/1000) | — |
-| **rel.1** | Relativistic correction term: Δ / (16 m) | — |
-| **rel.2** | Relativistic correction term: 𝒱 / (8 m) or 5 𝒱 / (24 m) for spin-flip | — |
+| **cornell** | Correction term: 3 × (0.215 × ⟨f | r | f⟩ − 0.028) / (Δ/1000) | — |
+| **rel.1** | Relativistic correction term: $ΔE / (16 m_Q)$ | — |
+| **rel.2** | Relativistic correction term: $𝒱 / (8 m_mQ) or $5 𝒱 / (24 m_Q)$ for spin-flip | — |
 | **dΓ %** | Total relative error (quadratic sum of individual uncertainties) | % |
 | **error** | Absolute decay rate uncertainty: (dΓ %) × Γ | MeV |
 
