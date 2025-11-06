@@ -42,8 +42,8 @@ the results include:
 | 6 | `E_H` | Hybrid energy | GeV |
 | 7 | `E_Q` | Quarkonium energy | GeV |
 | 8 | `DeltaE` | $E_H - E_Q$ | GeV |
-| 9 | `Int_HxQ` | $\int Y_H(r) \ r \ Y_Q(r) \ dr$ — overlap expectation of position  | GeV⁻¹ | 
-| 10 | `Int_HQ` | $\int Y_H(r)  \ Y_Q(r) \ dr$ — overlap integral | dimensionless |
+| 9 | `Int_HxQ` | $\int Y_H(r) \ r \ Y_Q(r) \ dr$ — Overlap expectation of position  | GeV⁻¹ | 
+| 10 | `Int_HQ` | $\int Y_H(r)  \ Y_Q(r) \ dr$ — Overlap integral | dimensionless |
 | 11 | `Int_QxQ` | $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium  expectation of position $\langle r \rangle_Q$| GeV⁻¹ |
 | 12 | `Int_QQ` | $\int Y_Q(r) \ Y_Q(r) \ dr$ — Quarkonium normalization test | dimensionless |
 | 13 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | dimensionless |
@@ -80,8 +80,8 @@ the results include:
 | 6 | `E_H` | Hybrid energy | GeV |
 | 7 | `E_Q` | Quarkonium energy | GeV |
 | 8 | `DeltaE` | $E_H - E_Q$ | GeV |
-| 9 | `Int_YHxYQ` | $\int Y_H(r) \ r \ Y_Q(r) \ dr$ — overlap expectation of position  | GeV⁻¹ | 
-| 10 | `Int_YHYQ` | $\int Y_H(r)  \ Y_Q(r) \ dr$ — overlap integral | dimensionless |
+| 9 | `Int_YHxYQ` | $\int Y_H(r) \ r \ Y_Q(r) \ dr$ — Overlap expectation of position  | GeV⁻¹ | 
+| 10 | `Int_YHYQ` | $\int Y_H(r)  \ Y_Q(r) \ dr$ — Overlap integral | dimensionless |
 | 11 | `Int_YQxYQ` |  $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium  expectation of position $\langle r \rangle_Q$| GeV⁻¹ |
 | 12 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | dimensionless |
 
@@ -104,7 +104,7 @@ the results include:
 | 4 | `Energy_Hpm` | Hybrid energy | GeV |
 | 5 | `Int_YHp_x_YHp` | $\int P^{+}(r) \ r \ P^{+}(r) dr$ — Hybrid expectation of position component | GeV⁻¹ |
 | 6 | `Int_YHp_x_YHm` | $\int P^{+}(r) \ r \ P^{-}(r) dr$ — Hybrid cross term of position integral | GeV⁻¹ |
-| 7 | `Int_YHm_x_YHm` | $\int P^{+}(r) \ r \ P^{-}(r) dr$ — Hybrid expectation of position component | GeV⁻¹ |
+| 7 | `Int_YHm_x_YHm` | $\int P^{-}(r) \ r \ P^{-}(r) dr$ — Hybrid expectation of position component | GeV⁻¹ |
 | 8 | `Int_YHpYHp` |$\int P^{+}(r) \ P^{+}(r) dr$ — Hybrid normalization component | dimensionless |
 | 9 | `Int_YHpYHm` | $\int P^{+}(r) \ P^{-}(r) dr$ — Hybrid cross term integral | dimensionless |
 | 10 | `Int_YHmYHm` | $\int P^{-}(r) \ P^{-}(r) dr$ — Hybrid normalization component | dimensionless |
@@ -114,23 +114,22 @@ the results include:
 #### Decay file columns
 | # | Quantity | Description | Units |
 |---|-----------|--------------|--------|
-| 1 | `mass` | GeV |
-| 2 | `J` | Hybrid angular momentum | — |
+| 1 | `mass` |Quark mass | GeV |
+| 2 | `J` | Hybrid total angular momentum | — |
 | 3 | `n_H` | Hybrid principal quantum number | — |
 | 4 | `L` | Quarkonium angular momentum | — |
 | 5 | `n_Q` | Quarkonium principal quantum number | — |
 | 6 | `E_H` | Hybrid energy | GeV |
 | 7 | `E_Q` | Quarkonium energy | GeV |
 | 8 | `DeltaE` | $E_H - E_Q$ | GeV |
-| 9 | `Int_Hp_x_Q` | Overlap integral (Hp channel) | — |
-| 10 | `Int_Hm_x_Q` | Overlap integral (Hm channel) | — |
-| 11 | `Int_Hp_Q` | Wavefunction overlap (Hp) | — |
-| 12 | `Int_Hm_Q` | Wavefunction overlap (Hm) | — |
-| 13 | `Int_QxQ` | $\langle r \rangle_Q$ | GeV⁻¹ |
-| 14 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | — |
-
+| 9 | `Int_Hp_x_Q` | $\int P^{+}(r) \ r \ Y_Q(r) \ dr$ — Overlap expectation of position component | GeV⁻¹ | 
+| 10 | `Int_Hm_x_Q` | $\int P^{-}(r) \ r \ Y_Q(r) \ dr$ — Overlap expectation of position component  | GeV⁻¹ | 
+| 11 | `Int_Hp_Q` |  $\int P^{+}(r) \ Y_Q(r)  \ dr$ — Overlap integral component | dimensionless |
+| 12 | `Int_Hm_Q` | $\int P^{-}(r) \ Y_Q(r)  \ dr$ — Overlap integral component | dimensionless |
+| 13 | `Int_QxQ` | $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium  expectation of position $\langle r \rangle_Q$| GeV⁻¹ |
+| 14 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | dimensionless |
 > **Note:**  
-> For decay we shall consider only results with `C < 1e-1`.
+> For decay calculations, only results with `C < 1e-01` shall be considered reliable.
 
 ---
 
@@ -141,6 +140,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
