@@ -1,26 +1,81 @@
 # hybrid_quarkonia
 
-this repository contains the equations needed to solve the spectrum and wavefunctions for quarkonium and hybrid states. 
+This repository contains MATLAB codes to solve the **spectrum** and **wavefunctions** of quarkonium and hybrid states through numerical solutions of the Schrödinger equation.
 
-DOI: https://doi.org/10.1103/PhysRevD.96.014004
+---
 
+## 📂 Repository Structure
 
-named 
+<details>
+<summary><b>Main scripts</b></summary>
 
-H1  --  the hybrid with wave-function  --(  Ppm  )--  and states   (s/d)_1,(p/f)_2,...
-  coupled hybrid at J>0 and J=L\pm1 with Pi_u and Sigma_u^- potential
+- **`_equations.m`**  
+  Contains the Schrödinger equations that describe each state.  
+  These functions are used by the next two files.
 
+- **`_spectrum.m`**  
+  Generates the corresponding `_spectrum.dat` files for quarkonium and hybrid states.  
+  The output includes **energy levels** and **expected radial values** ⟨r⟩.
 
-H2  --  the hybrid with wave-function  --(  P0  )--  and states   p_1,d_2,...
-  decoupled hybrid at J>0 and J=L with Pi_u potential, 
+- **`_decay.m`**  
+  Produces the `_decay.dat` files for hybrid states.  
+  The output contains **overlap integrals** required for **hybrid → quarkonium** decay calculations.
 
+</details>
 
-H3  --  the hybrid with wave-function  --(  Pplus0  )--  and states   p_0
-  decoupled hybrid at J=0 with Sigma_u^- potential, 
+<details>
+<summary><b>Output folders</b></summary>
 
+- **`output/`** – Numerical results (spectrum and decay data files).  
+- **`decay_tables/`** – Summarized tables in **Excel** and **PDF** format.  
+- **`fig/`** – Illustrative plots of potentials and spectra.
 
-![Description](fig/spectrumC.png)
+</details>
 
-![Description](fig/spectrumB.png)
+---
 
-![Description](fig/Vstatic.png)
+## 📘 References
+
+- Equations for hybrid states:  
+  **Phys. Rev. D 96, 014004 (2017)**  
+  [https://doi.org/10.1103/PhysRevD.96.014004](https://doi.org/10.1103/PhysRevD.96.014004)
+
+- Hybrid → quarkonium decay framework:  
+  **DOI:** _(to be added)_
+
+---
+
+## ⚛️ Hybrid State Labels
+
+| Label | Wave Function Type | Example States | Description |
+|:------|:-------------------|:---------------|:-------------|
+| **H1** | `Ppm` | (s/d)\_1, (p/f)\_2, ... | Coupled hybrid (J > 0, J = L ± 1) with Π_u and Σ_u⁻ potentials |
+| **H2** | `P0` | p\_1, d\_2, ... | Decoupled hybrid (J > 0, J = L) with Π_u potential |
+| **H3** | `Pplus0` | p\_0 | Decoupled hybrid (J = 0) with Σ_u⁻ potential |
+
+---
+
+## 📊 Example Figures
+
+| Charmonium Spectrum | Bottomonium Spectrum | Static Potentials |
+|:--------------------:|:--------------------:|:------------------:|
+| ![Charmonium](fig/spectrumC.png) | ![Bottomonium](fig/spectrumB.png) | ![Potentials](fig/Vstatic.png) |
+
+---
+
+## 🧮 Notes
+
+- All computations are performed in **GeV** units.  
+- The results can be directly reused for plotting or for further decay analysis.  
+- Each `.dat` file includes clear headers with column descriptions and units.  
+
+---
+
+## 🧾 Citation
+
+If you use these codes or results, please cite the corresponding reference:  
+> A. Pineda *et al.*, *Phys. Rev. D* **96**, 014004 (2017).
+
+---
+
+Made with 🧠 and MATLAB for heavy-quark physics.
