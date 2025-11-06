@@ -28,6 +28,7 @@ disp('Computing overlaps Hybrid(Sigma_u^- and \Pi_u) to Quarkonium(Sigma_g^+) ..
 % Initialize storage
 results = [];
 
+addpath('./source')
 for im = 1:length(masses)
     mass = masses(im);
 
@@ -122,3 +123,4 @@ end
 fclose(fileID);
 
 fprintf('Results saved in: %s\n', filename);
+
