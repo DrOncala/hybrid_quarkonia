@@ -11,7 +11,7 @@ the spectrum file contains the following columns:
 | 2 | `L` | Angular momentum quantum number | — |
 | 3 | `n` | Principal quantum number | — |
 | 4 | `Energy_Q` | Energy eigenvalue | GeV |
-| 5 | `Int_YQxYQ` | $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium expectation value of position $\langle r \rangle$ | GeV⁻¹ |
+| 5 | `Int_YQxYQ` | $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium expectation of position $\langle r \rangle_Q$ | GeV⁻¹ |
 | 6 | `Int_YQYQ` | $\int Y_Q(r) \ Y_Q(r) \ dr$ — Quarkonium normalization test | dimensionless |
 
 ---
@@ -28,8 +28,8 @@ the results include:
 | 2 | `J` | Total angular momentum (fixed at J = 0) | — |
 | 3 | `n_H` | Principal quantum number | — |
 | 4 | `Energy_H` | Hybrid energy | GeV |
-| 5 | `Int_YHxYH` | $\int Y_H(r) \ r \ Y_H(r) \ dr$ — expectation of position | GeV⁻¹ |
-| 6 | `Int_YHYH` | $\int Y_H(r) \ Y_H(r) \ dr$ — normalization test | dimensionless |
+| 5 | `Int_YHxYH` | $\int Y_H(r) \ r \ Y_H(r) \ dr$ — Hybrid expectation of position | GeV⁻¹ |
+| 6 | `Int_YHYH` | $\int Y_H(r) \ Y_H(r) \ dr$ — Hybrid normalization test | dimensionless |
 
 #### Decay file columns
 | # | Quantity | Description | Units |
@@ -42,9 +42,9 @@ the results include:
 | 6 | `E_H` | Hybrid energy | GeV |
 | 7 | `E_Q` | Quarkonium energy | GeV |
 | 8 | `DeltaE` | $E_H - E_Q$ | GeV |
-| 9 | `Int_HxQ` | $\int Y_H(r) \ r \ Y_Q(r) \ dr$ — expectation of position | GeV⁻¹ | 
-| 10 | `Int_HQ` | $\int Y_H(r) \ r \ Y_Q(r) \ dr$ — wavefunction overlap | dimensionless |
-| 11 | `Int_QxQ` | $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium  expectation value of position $\langle r \rangle$| GeV⁻¹ |
+| 9 | `Int_HxQ` | $\int Y_H(r) \ r \ Y_Q(r) \ dr$ — overlap expectation of position  | GeV⁻¹ | 
+| 10 | `Int_HQ` | $\int Y_H(r)  \ Y_Q(r) \ dr$ — overlap wavefunction | dimensionless |
+| 11 | `Int_QxQ` | $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium  expectation of position $\langle r \rangle_Q$| GeV⁻¹ |
 | 12 | `Int_QQ` | $\int Y_Q(r) \ Y_Q(r) \ dr$ — Quarkonium normalization test | dimensionless |
 | 13 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | dimensionless |
 
@@ -140,6 +140,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
