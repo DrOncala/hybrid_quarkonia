@@ -49,7 +49,7 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 
 | Label | Wave Function Type | Example States | Description |
 |:------|:-------------------|:---------------|:-------------|
-| **H1** | `Ppm` | (s/d)\_1, (p/f)\_2, ... | Coupled hybrid (J > 0, J = L ± 1) with Π_u and Σ_u⁻ potentials |
+| **H1** | `P^\pm_J` | (s/d)\_1, (p/f)\_2, ... | Coupled hybrid (J > 0, J = L ± 1) with Π_u and Σ_u⁻ potentials |
 | **H2** | `P0` | p\_1, d\_2, ... | Decoupled hybrid (J > 0, J = L) with Π_u potential |
 | **H3** | `Pplus0` | p\_0 | Decoupled hybrid (J = 0) with Σ_u⁻ potential |
 
