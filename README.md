@@ -93,7 +93,7 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 - Each `.dat` file includes clear headers with column descriptions and units.  
 - All computations are performed in **GeV**.  
 - The results can be directly reused for plotting or for further decay analysis.
-- The results can be compared to [Particle Data Group observations]( https://pdg.lbl.gov/2025/listings/contents_listings.html) for $c\bar{c}$ or $b\bar{b}$ mesons (also called XYZ mesons) at zero isospin $I^G=0^+,0^+$.
+- The results can be compared to [Particle Data Group observations]( https://pdg.lbl.gov/2025/listings/contents_listings.html) for $c\bar{c}$ or $b\bar{b}$ mesons (also called XYZ mesons) at zero isospin $I^G=0^-,0^+$.
 
 
 ---
