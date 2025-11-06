@@ -49,8 +49,7 @@ the results include:
 | 13 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | dimensionless |
 
 > **Note:**  
-> `C` is the coefficient of the dominant uncertainty source  
-> (confining vs. Coulomb potential).  
+> `C` is the coefficient of the dominant uncertainty source: Confining vs. Coulomb potential in the reference $C=3\frac{\sigma \langle r \rangle_Q-\mu}{\Delta E}$.  
 > For decay calculations, only results with `C < 1e-01` shall be considered reliable.
 
 ---
@@ -140,6 +139,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
