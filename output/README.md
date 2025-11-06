@@ -8,9 +8,9 @@ the spectrum file contains the following columns:
 | # | Quantity | Description | Units |
 |---|-----------|--------------|--------|
 | 1 | `mass` | Quark mass | GeV |
-| 2 | `L` | Angular momentum quantum number | — |
-| 3 | `n` | Principal quantum number | — |
-| 4 | `Energy_Q` | Energy eigenvalue | GeV |
+| 2 | `L` | Quarkonium angular momentum | — |
+| 3 | `n` | Quarkonium principal quantum number | — |
+| 4 | `Energy_Q` | Quarkonium energy | GeV |
 | 5 | `Int_YQxYQ` | $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium expectation of position $\langle r \rangle_Q$ | GeV⁻¹ |
 | 6 | `Int_YQYQ` | $\int Y_Q(r) \ Y_Q(r) \ dr$ — Quarkonium normalization test | dimensionless |
 
@@ -18,15 +18,15 @@ the spectrum file contains the following columns:
 
 ### Hybrid $P^+_0$  (H3)
 
-For the **decoupled hybrid** at $J=0$ with the $\Sigma_u^-$ potential  (also named *p₀* or *H3*), denoted as `hybridPplus0`,
+For the **decoupled hybrid** at $J=0$ with the $\Sigma_u^-$ potential  (also named $p_0$ or *H3*), denoted as `hybridPplus0`,
 the results include:
 
 #### Spectrum file columns
 | # | Quantity | Description | Units |
 |---|-----------|--------------|--------|
 | 1 | `mass` | Quark mass | GeV |
-| 2 | `J` | Total angular momentum (fixed at J = 0) | — |
-| 3 | `n_H` | Principal quantum number | — |
+| 2 | `J` | Hybrid total angular momentum (fixed at J = 0) | — |
+| 3 | `n_H` | Hybrid principal quantum number | — |
 | 4 | `Energy_H` | Hybrid energy | GeV |
 | 5 | `Int_YHxYH` | $\int Y_H(r) \ r \ Y_H(r) \ dr$ — Hybrid expectation of position | GeV⁻¹ |
 | 6 | `Int_YHYH` | $\int Y_H(r) \ Y_H(r) \ dr$ — Hybrid normalization test | dimensionless |
@@ -43,7 +43,7 @@ the results include:
 | 7 | `E_Q` | Quarkonium energy | GeV |
 | 8 | `DeltaE` | $E_H - E_Q$ | GeV |
 | 9 | `Int_HxQ` | $\int Y_H(r) \ r \ Y_Q(r) \ dr$ — overlap expectation of position  | GeV⁻¹ | 
-| 10 | `Int_HQ` | $\int Y_H(r)  \ Y_Q(r) \ dr$ — overlap wavefunction | dimensionless |
+| 10 | `Int_HQ` | $\int Y_H(r)  \ Y_Q(r) \ dr$ — overlap integral | dimensionless |
 | 11 | `Int_QxQ` | $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium  expectation of position $\langle r \rangle_Q$| GeV⁻¹ |
 | 12 | `Int_QQ` | $\int Y_Q(r) \ Y_Q(r) \ dr$ — Quarkonium normalization test | dimensionless |
 | 13 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | dimensionless |
@@ -54,25 +54,25 @@ the results include:
 
 ---
 
-### Hybrid P0  (H2)
+### Hybrid $P^0$  (H2)
 
-For the **decoupled hybrid** at $J>0$ and $J=L$ with the $\Pi_u$ potential  
-(also named *p₁*, *d₂*, ... or *(H2)*), we have:
+For the **decoupled hybrid** at $J>0$ and $J=L$ with the $\Pi_u$ potential  (also named $p_1$, $d_2$, ... or *H2*), denoted as `hybridP0`,
+the results include:
 
 #### Spectrum file columns
 | # | Quantity | Description | Units |
 |---|-----------|--------------|--------|
 | 1 | `mass` | Quark mass | GeV |
-| 2 | `J` | Total angular momentum | — |
-| 3 | `n_H` | Principal quantum number | — |
+| 2 | `J` | Hybrid total angular momentum | — |
+| 3 | `n_H` | Hybrid principal quantum number | — |
 | 4 | `Energy_H` | Hybrid energy | GeV |
-| 5 | `Int_YHxYH` | $\int Y_H(r) r Y_H(r) dr$ | GeV⁻¹ |
-| 6 | `Int_YHYH` | $\int Y_H(r) Y_H(r) dr$ | — |
+| 5 | `Int_YHxYH` | $\int Y_H(r) r Y_H(r) dr$ — Hybrid expectation of position | GeV⁻¹ |
+| 6 | `Int_YHYH` | $\int Y_H(r) Y_H(r) dr$ — Hybrid normalization test | dimensionless |
 
 #### Decay file columns
 | # | Quantity | Description | Units |
 |---|-----------|--------------|--------|
-| 1 | `mass` | GeV |
+| 1 | `mass` | Quark mass | GeV |
 | 2 | `J` | Hybrid angular momentum | — |
 | 3 | `n_H` | Hybrid principal quantum number | — |
 | 4 | `L` | Quarkonium angular momentum | — |
@@ -80,34 +80,36 @@ For the **decoupled hybrid** at $J>0$ and $J=L$ with the $\Pi_u$ potential
 | 6 | `E_H` | Hybrid energy | GeV |
 | 7 | `E_Q` | Quarkonium energy | GeV |
 | 8 | `DeltaE` | $E_H - E_Q$ | GeV |
-| 9 | `Int_YHxYQ` | Overlap integral | — |
-| 10 | `Int_YHYQ` | Wavefunction overlap | — |
-| 11 | `Int_YQxYQ` | $\langle r \rangle_Q$ | GeV⁻¹ |
-| 12 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | — |
+| 9 | `Int_YHxYQ` | $\int Y_H(r) \ r \ Y_Q(r) \ dr$ — overlap expectation of position  | GeV⁻¹ | 
+| 10 | `Int_YHYQ` | $\int Y_H(r)  \ Y_Q(r) \ dr$ — overlap integral | dimensionless |
+| 11 | `Int_YQxYQ` |  $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium  expectation of position $\langle r \rangle_Q$| GeV⁻¹ |
+| 12 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | dimensionless |
 
 > **Note:**  
-> For decay we shall consider only cases with `C < 1e-1`.
+> For decay calculations, only results with `C < 1e-01` shall be considered reliable.
 
 ---
 
-### Hybrid Ppm  (H1)
+### Hybrid $P^{\pm}$  (H1)
 
-For the **coupled hybrid** at $J>0$ and $J=L±1$ with $\Pi_u$ and $\Sigma_u^-$ potentials  
-(also named *(s/d)_1*, *(p/f)_2*, ... or *(H1)*), the output includes:
+For the **coupled hybrid** at $J>0$ and $J=L\pm 1$ with $\Pi_u$ and $\Sigma_u^-$ potentials (also named $(s/d)_1$, $(p/f)_2$, ... or *H1*), denoted as `hybridPpm`,
+the results include:
 
 #### Spectrum file columns
 | # | Quantity | Description | Units |
 |---|-----------|--------------|--------|
 | 1 | `mass` | Quark mass | GeV |
-| 2 | `J` | Total angular momentum | — |
-| 3 | `n_H` | Principal quantum number | — |
-| 4 | `Energy_Hpm` | Coupled hybrid energy | GeV |
-| 5 | `Int_YHp_x_YHp` | $\int Y_{Hp}(r) r Y_{Hp}(r) dr$ | GeV⁻¹ |
-| 6 | `Int_YHp_x_YHm` | $\int Y_{Hp}(r) r Y_{Hm}(r) dr$ | GeV⁻¹ |
-| 7 | `Int_YHm_x_YHm` | $\int Y_{Hm}(r) r Y_{Hm}(r) dr$ | GeV⁻¹ |
-| 8 | `Int_YHpYHp` | Normalization integral (P⁺) | — |
-| 9 | `Int_YHpYHm` | Cross term (P⁺P⁻) | — |
-| 10 | `Int_YHmYHm` | Normalization integral (P⁻) | — |
+| 2 | `J` | Hybrid total angular momentum | — |
+| 3 | `n_H` | Hybrid principal quantum number | — |
+| 4 | `Energy_Hpm` | Hybrid energy | GeV |
+| 5 | `Int_YHp_x_YHp` | $\int P^{+}(r) \ r \ P^{+}(r) dr$ — Hybrid expectation of position component | GeV⁻¹ |
+| 6 | `Int_YHp_x_YHm` | $\int P^{+}(r) \ r \ P^{-}(r) dr$ — Hybrid cross term of position integral | GeV⁻¹ |
+| 7 | `Int_YHm_x_YHm` | $\int P^{+}(r) \ r \ P^{-}(r) dr$ — Hybrid expectation of position component | GeV⁻¹ |
+| 8 | `Int_YHpYHp` |$\int P^{+}(r) \ P^{+}(r) dr$ — Hybrid normalization component | dimensionless |
+| 9 | `Int_YHpYHm` | $\int P^{+}(r) \ P^{-}(r) dr$ — Hybrid cross term integral | dimensionless |
+| 10 | `Int_YHmYHm` | $\int P^{-}(r) \ P^{-}(r) dr$ — Hybrid normalization component | dimensionless |
+> **Note:**  
+> We compute `Int_YHpYHm` but is not included in the normalization of the hybrid coupled state.
 
 #### Decay file columns
 | # | Quantity | Description | Units |
@@ -139,6 +141,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
