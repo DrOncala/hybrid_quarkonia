@@ -28,8 +28,6 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 <details>
 <summary><b>Sources folder</b></summary>
 
-<summary><b>Main scripts</b></summary>
-
 - **`_equations.m`**  
   Contains the Schrödinger equations that describe each state, including the definition of the **matrix potentials** required for each configuration.  
   These functions are called by the main files.
