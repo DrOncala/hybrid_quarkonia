@@ -42,16 +42,16 @@ the results include:
 | 6 | `E_H` | Hybrid energy | GeV |
 | 7 | `E_Q` | Quarkonium energy | GeV |
 | 8 | `DeltaE` | $E_H - E_Q$ | GeV |
-| 9 | `Int_HxQ` | Overlap integral with $r$ factor | — |
-| 10 | `Int_HQ` | Wavefunction overlap | — |
-| 11 | `Int_QxQ` | Quarkonium $\langle r \rangle$ | GeV⁻¹ |
-| 12 | `Int_QQ` | Quarkonium normalization | — |
-| 13 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | — |
+| 9 | `Int_HxQ` | $\int Y_H(r) \ r \ Y_Q(r) \ dr$ — expectation of position | GeV⁻¹ | 
+| 10 | `Int_HQ` | $\int Y_H(r) \ r \ Y_Q(r) \ dr$ — wavefunction overlap | dimensionless |
+| 11 | `Int_QxQ` | $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium  expectation value of position $\langle r \rangle$| GeV⁻¹ |
+| 12 | `Int_QQ` | $\int Y_Q(r) \ Y_Q(r) \ dr$ — Quarkonium normalization test | dimensionless |
+| 13 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | dimensionless |
 
 > **Note:**  
 > `C` is the coefficient of the dominant uncertainty source  
 > (confining vs. Coulomb potential).  
-> For decay calculations, only results with `C < 1e-1` are considered reliable.
+> For decay calculations, only results with `C < 1e-01` shall be considered reliable.
 
 ---
 
@@ -140,6 +140,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
