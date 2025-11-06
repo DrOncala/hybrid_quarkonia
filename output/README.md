@@ -28,8 +28,8 @@ For the **decoupled hybrid** at $J=0$ with the $\Sigma_u^-$ potential
 | 2 | `J` | Total angular momentum (fixed = 0) | — |
 | 3 | `n_H` | Principal quantum number | — |
 | 4 | `Energy_H` | Hybrid energy | GeV |
-| 5 | `Int_YHxYH` | $\int Y_H(r) r Y_H(r) dr$ — expectation of position | GeV⁻¹ |
-| 6 | `Int_YHYH` | $\int Y_H(r) Y_H(r) dr$ — normalization test | dimensionless |
+| 5 | `Int_YHxYH` | $\int Y_H(r) \ r \ Y_H(r) \ dr$ — expectation of position | GeV⁻¹ |
+| 6 | `Int_YHYH` | $\int Y_H(r) \ Y_H(r) \ dr$ — normalization test | dimensionless |
 
 #### Decay file columns
 | # | Quantity | Description | Units |
@@ -140,5 +140,6 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
