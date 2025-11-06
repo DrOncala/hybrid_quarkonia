@@ -14,7 +14,7 @@ Vname_Q = '\Sigma_g^+(braaten)';
 disp('**************************************************')
 
 results = []; % matrix to store results
-
+addpath('./source')
 for im = 1:length(masses)
     mass = masses(im);
 
@@ -66,3 +66,4 @@ end
 fclose(fileID);
 
 fprintf('Results saved in: %s\n', filename);
+
