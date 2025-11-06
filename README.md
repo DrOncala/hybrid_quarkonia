@@ -44,7 +44,7 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 - **`*_.m`**  
   Implements the **numerical methods** used to compute the **eigenvalues** and **eigenfunctions** of the Schrödinger equations,  
   including the treatment of **matrix (m×m) dimension potentials** and **non-diagonal coupling terms**.  
-  These functions are called by `_equations.m`.
+  These functions are called by `*_equations.m`.
 
 
 </details>
