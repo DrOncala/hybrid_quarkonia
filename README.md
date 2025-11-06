@@ -74,8 +74,6 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 ## 🧾 Citation
 
 If you use these codes or results, please cite the corresponding reference:  
-> A. Pineda *et al.*, *Phys. Rev. D* **96**, 014004 (2017).
+> **DOI:** _(to be added)_
 
----
 
-Made with 🧠 and MATLAB for heavy-quark physics.
