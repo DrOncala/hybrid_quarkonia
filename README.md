@@ -52,8 +52,8 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 <details>
 <summary><b>Output folder</b></summary>
 
-- **`output.dat`** – Numerical results (spectrum and decay data files).  
-- **`decay_tables/`** – Summarized tables in **Excel** and **PDF** format.  
+- **`_spectrum.dat`** and **`_decay.dat`** – List of numerical results (spectrum and decay data files for each state).  
+- **`decay_tables/`** – Summarized tables with relevant transition channels: decay width computations and errors analysis. In **Excel** with color codes and printed in **PDF** format.  
 
 </details>
 
