@@ -50,7 +50,7 @@ the results include:
 
 > **Note:**  
 > `C` is the coefficient of the dominant uncertainty source, this is the "Confining vs. Coulomb potential" in the reference $3(\sigma \langle r \rangle_Q+\mu)/\Delta E$  
-> For decay calculations, only results with `C < 1e-01` shall be considered reliable.
+> For decay calculations, only results with `C < 1` shall be considered reliable.
 
 ---
 
@@ -86,7 +86,7 @@ the results include:
 | 12 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | dimensionless |
 
 > **Note:**  
-> For decay calculations, only results with `C < 1e-01` shall be considered reliable.
+> For decay calculations, only results with `C < 1` shall be considered reliable.
 
 ---
 
@@ -129,7 +129,7 @@ the results include:
 | 13 | `Int_QxQ` | $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium  expectation of position $\langle r \rangle_Q$| GeV⁻¹ |
 | 14 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | dimensionless |
 > **Note:**  
-> For decay calculations, only results with `C < 1e-01` shall be considered reliable.
+> For decay calculations, only results with `C < 1` shall be considered reliable.
 
 ---
 
@@ -140,5 +140,6 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
