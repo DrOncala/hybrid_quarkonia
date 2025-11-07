@@ -4,7 +4,7 @@ This directory contains structured, color-coded results of the hybrid-to-quarkon
 
 
 ![Example of spin conserved decay table](table_decay.PNG)
-![Example of spin flip (fro Hybrid spin 0) decay table](table2_decay.PNG)
+![Example of spin flip (fro Hybrid spin 0) decay table](table_decay2.PNG)
 
 - We use the following color code:
   1. **Green** — transitions that survive the constraints.  
