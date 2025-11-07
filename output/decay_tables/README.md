@@ -6,11 +6,12 @@ This folder contains the **Excel tables** and a **PDF printout** summarizing the
 ![Example of spin conserved decay table](decay_table.PNG)
 ![Example of spin flip (fro Hybrid spin 0) decay table](decay_table2.PNG)
 
-- We use the color code:
-   1. Green: transitions that survive the constraints.
-   2. Red: transitions that do not survive given some constraints, or with error component >1.
-   3. Bold Black: transitions that survive to constraints and with error component $\simless 1$.
-   5. Blue: transitions that survive to constraints and with error component $\simless 1$ and the initial and final states can be  identified with XYZ mesos observed by PDG
+- We use the following color code:
+  1. **Green** — transitions that survive the constraints.  
+  2. **Red** — transitions that do not survive certain constraints, or have an error component > 1.  
+  3. **Bold Black** — transitions that survive the constraints and have an error component $\lesssim 1$.  
+  4. **Blue** — transitions that survive the constraints, have an error component $\lesssim 1$, and whose initial and final states can be identified with XYZ mesons observed by the PDG.
+
 ---
 
 ## File Content
