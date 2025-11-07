@@ -2,6 +2,8 @@
 
 This folder contains the **Excel tables** and a **PDF printout** summarizing the hybrid-to-quarkonium decay results.
 
+
+![Example pf hybrid decay table](decay_table.PNG)
 ---
 
 ## File Contents
