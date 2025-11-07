@@ -21,9 +21,7 @@ This folder contains the **Excel tables** and a **PDF printout** summarizing the
   2. **Spin-flip** starting from **spin 0**
   3. **Spin-flip** starting from **spin 1**
 
-- **From the 4th to the 12th pages**, the PDF contains the **full tables of transitions**.  
-  These include the cases allowed for ΔE > 0 and the constraints specified in the reference, but without calculation errors.  
-  Transitions that **satisfy all constraints** are shown in **green**, while those that do not are shown in **red**.
+- **From the 4th to the 12th pages**, the PDF contains the **full tables of transitions**. These include the cases allowed for ΔE > 0 and the constraints specified in the reference, but without calculation errors. Transitions that **satisfy all constraints** are shown in **green**, while those that do not are shown in **red**.
 
 - The **last pages** of the PDF include the definitions of the VBA functions used.
 
