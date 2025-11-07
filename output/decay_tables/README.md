@@ -30,9 +30,9 @@ This section defines all quantities appearing in the decay tables and clarifies 
 
 | Symbol / Column | Meaning | Units / Notes |
 |-----------------|----------|---------------|
-| **ΔE** | Energy difference between the hybrid initial $\langle i \| $ and $ f $ inal (quarkonium) states | MeV |
+| **$ΔE$** | Energy difference between the hybrid initial $\langle i \|$ and the quarkonium final $\| f\rangle$ states. | MeV|
 | **α** | $\alpha(\Delta E)$ - QCD strong coupling constant used in decay rate formulas | — |
-| **C²** or **K²** | Coefficients encoding the angular momentum integral between hybrid and quarkonium states | dimensionless |
+| **C²** or **K²** | Coefficients encoding the angular momentum integral between hybrid and quarkonium states | dimensionless|
 | **INT⟨i r f⟩** | Radial overlap integral between initial and final wave functions, without angular coefficients | GeV⁻¹ |
 | **Γ** | Computed decay rate | MeV |
 | **𝒱** | Defined as $(E_i-\langle i \| V \| i\rangle )+(E_f-\langle f \| V\| f \rangle)$ | GeV |
