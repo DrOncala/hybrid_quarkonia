@@ -55,4 +55,4 @@ This section defines all quantities appearing in the decay tables and clarifies 
 
 ### Notes
 - Quantities marked with “*” are **computed directly from numerical wave-function overlaps** and does not include angular momentum coefficients **C²** or **K²** 
-- Example: for **Spin-conserved:** $⟨H \| r\|  S⟩ = \|⟨i r f⟩\| × √(C²)$   used for **Γ** calculation, while $⟨i \| r \| f⟩ = \|⟨i \| r\| f⟩\|$   used for used for **multip** term. 
+- Example: for **Spin-conserved:** $⟨H \| r\|  S⟩ = \|⟨i r f⟩\| × √(C²)$ used for **Γ** calculation, while $⟨i \| r \| f⟩$ is   used for used for **multip** term. 
