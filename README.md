@@ -31,8 +31,7 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
   Defines the **static potentials** used in the calculations.
 
 - **`shrodinger`**  
-  Folder with **numerical methods** used to compute the **eigenvalues** and **eigenfunctions** of the Schrödinger equations,  
-  including the treatment of **matrix (m×m) dimension potentials** and **non-diagonal coupling terms**.  
+  Folder with **numerical methods** used to compute the **eigenvalues** and **eigenfunctions** of the Schrödinger equations including the treatment of **matrix (m×m) dimension potentials** with **non-diagonal coupling terms**.  
   These functions are called by `*_equations.m`.
 
 
