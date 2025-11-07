@@ -29,7 +29,7 @@ system.V=@potentialMatrix;
 
 
 #### COMPUTE THE EIGENVALUES FOR SEVERAL n
-addpath('./source')
+addpath('./source/shroedinger')
 
 [EigvData,meshData]=computeEigenvalues(system,0,index_n,5e-8);
 
