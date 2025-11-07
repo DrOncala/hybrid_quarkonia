@@ -4,6 +4,12 @@ This folder contains the **Excel tables** and a **PDF printout** summarizing the
 
 
 ![Example pf hybrid decay table](decay_table.PNG)
+
+- We use the color code:
+   1. Green: transitions that survive the constraints.
+   2. Red: transitions that do not survive given some constraints or error component >1.
+   3. Bold Black: transitions that survive to constraints and with error component $\simless 1$.
+   5. Blue: transitions that survive to constraints and with error component $\simless 1$ and the states can be  identified with PDG data.
 ---
 
 ## File Content
