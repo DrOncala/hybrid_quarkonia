@@ -71,7 +71,7 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 
 ---
 
-## 📊 Example Figures
+## 📊 Spectrum
 
 | Charmonium Spectrum | Bottomonium Spectrum | Static Potentials |
 |:--------------------:|:--------------------:|:------------------:|
