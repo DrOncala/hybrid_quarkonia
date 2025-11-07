@@ -11,8 +11,6 @@ This directory contains structured, color-coded results of the hybrid-to-quarkon
   2. **Red** — transitions that do not survive certain constraints, or have an error component > 1.  
   3. **Bold Black** — transitions that survive the constraints and have an error component $\lesssim 1$.  **Black values** are those **included in the draft**.
   4. **Blue** — transitions that survive the constraints, have an error component $\lesssim 1$, and whose initial and final states can be identified with XYZ mesons observed by the PDG. **Blue values** are those **added to the identification table** in the draft.
- 
-- Quantities marked with “*” are **computed directly from numerical wave-function overlaps** and does not include angular momentum coefficients **C²** or **K²** 
 
 
 ---
