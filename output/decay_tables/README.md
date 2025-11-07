@@ -27,7 +27,7 @@ This section defines all quantities appearing in the decay tables and clarifies 
 | **C²** or **K²** | Coefficients encoding the angular momentum integral between hybrid and quarkonium states | dimensionless |
 | **INT⟨i r f⟩** | Radial overlap integral between initial and final wave functions, without angular coefficients | GeV⁻¹ |
 | **Γ** | Computed decay rate | MeV |
-| **𝒱** | Defined as $(E_i-\langle \|i  V \| i\rangle )+(E_f-\langle f \| V\| f \rangle)$ | GeV |
+| **𝒱** | Defined as $(E_i-\langle i \| V \| i\rangle )+(E_f-\langle f \| V\| f \rangle)$ | GeV |
 | **errorE** | Estimated energy uncertainty using the expressions: <br>• 3 × ARREL(2) × 110 / Δ  or 3 × ARREL(2) × 33 / Δ | dimensionless |
 | **α das(ΔE/1000)/α das** | Variation of the running coupling α das with ΔE | dimensionless |
 | **multip** | Transition strength term:<br>• (⟨i | r | f⟩ Δ)² / 120 for spin-conserved transitions<br>• (⟨i | r | f⟩ Δ)² / 24 for spin-flip transitions | dimensionless |
