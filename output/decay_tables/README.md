@@ -6,7 +6,7 @@ This folder contains the **Excel tables** and a **PDF printout** summarizing the
 ![Example pf hybrid decay table](decay_table.PNG)
 ---
 
-## File Contents
+## File Content
 
 - The **first three pages** of the PDF correspond to the **transitions that survive the constraints**:
   1. **Spin-conserved**
