@@ -3,7 +3,8 @@
 This folder contains the **Excel tables** and a **PDF printout** summarizing the hybrid-to-quarkonium decay results.
 
 
-![Example pf hybrid decay table](decay_table.PNG)
+![Example of spin conserved decay table](decay_table.PNG)
+![Example of spin flip (fro Hybrid spin 0) decay table](decay_table2.PNG)
 
 - We use the color code:
    1. Green: transitions that survive the constraints.
