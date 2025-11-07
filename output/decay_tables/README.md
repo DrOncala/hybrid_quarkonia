@@ -1,6 +1,6 @@
 # Decay Tables
 
-This directory contains the structured, color-coded, and results of the hybrid-to-quarkonium decay calculations, formatted both as **Excel tables** (for analysis) and **PDF printout** (for documentation).
+This directory contains structured, color-coded results of the hybrid-to-quarkonium decay calculations, formatted both as **Excel tables** (for analysis) and **PDF printout** (for documentation).
 
 
 ![Example of spin conserved decay table](decay_table.PNG)
