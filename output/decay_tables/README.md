@@ -10,7 +10,7 @@ This folder contains the **Excel tables** and a **PDF printout** summarizing the
    1. Green: transitions that survive the constraints.
    2. Red: transitions that do not survive given some constraints, or with error component >1.
    3. Bold Black: transitions that survive to constraints and with error component $\simless 1$.
-   5. Blue: transitions that survive to constraints and with error component $\simless 1$ and the initial and final states can be  identified with XYZ mesos observed by PDG. 
+   5. Blue: transitions that survive to constraints and with error component $\simless 1$ and the initial and final states can be  identified with XYZ mesos observed by PDG
 ---
 
 ## File Content
