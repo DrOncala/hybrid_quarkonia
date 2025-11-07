@@ -8,11 +8,17 @@ This folder contains the **Excel tables** and a **PDF printout** summarizing the
 
 ## File Contents
 
-- The **first sheet** of the Excel file provides the **exact definitions of all columns** used throughout the tables.  
-- The **first three pages** of the PDF correspond to the **expanded transition tables (green)**:
-  1. **Spin-conserved transitions**
-  2. **Spin-flip transitions** starting from **spin 0**
-  3. **Spin-flip transitions** starting from **spin 1**
+- The **first three pages** of the PDF correspond to the **transitions that survive the constraints**:
+  1. **Spin-conserved**
+  2. **Spin-flip** starting from **spin 0**
+  3. **Spin-flip** starting from **spin 1**
+
+- **From the 4th to the 12th pages**, the PDF contains the **full tables of transitions**.  
+  These include the cases allowed for ΔE > 0 and the constraints specified in the reference, but without calculation errors.  
+  Transitions that **satisfy all constraints** are shown in **green**, while those that do not are shown in **red**.
+
+- The **last pages** of the PDF include the definitions of the VBA functions used.
+
 
 ---
 
