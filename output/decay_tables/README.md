@@ -23,7 +23,7 @@ This section defines all quantities appearing in the decay tables and clarifies 
 | Symbol / Column | Meaning | Units / Notes |
 |-----------------|----------|---------------|
 | **ΔE** | Energy difference between initial (hybrid) and final (quarkonium) states | MeV |
-| **α (strong coupling)** | QCD coupling constant used in decay rate formulas | — |
+| **α** | $\alpha(\Delta E)$ QCD strong coupling constant used in decay rate formulas | — |
 | **C²** or **K²** | Coefficients encoding the angular momentum integral between hybrid and quarkonium states | dimensionless |
 | **INT⟨i r f⟩** | Radial overlap integral between initial and final wave functions, without angular coefficients | GeV⁻¹ |
 | **Γ** | Computed decay rate | MeV |
