@@ -48,7 +48,7 @@ This section defines all quantities appearing in the decay tables and clarifies 
 | **alpha** | Variation of the running coupling uncertainty: $\delta \alpha / \alpha$ | dimensionless |
 | **multip** | Multipole term uncertainty: $(⟨i \| r \| f⟩ ΔE)² / 120$ for spin-conserved transitions; $/ 24$ for spin-flip transitions | dimensionless |
 | **cornell** | Confining vs Coulomb uncertainty: $3 (0.215 × ⟨f \| r \| f⟩ − 0.028) / ΔE$ | dimensionless |
-| **rel.1** | First relativistic correction term: $ΔE / 16 m_Q$ | — |
+| **rel.1** | First relativistic correction term: $ΔE / 16 m_Q$ | dimensionless |
 | **rel.2** | Second relativistic correction term: $𝒱 / 8 m_Q$ for spin conserved or $5 𝒱 / 24 m_Q$ for spin-flip | dimensionless |
 | **dΓ** | Total relative error: quadratic sum of individual uncertainties | % |
 | **error** | Absolute decay rate uncertainty: dΓ × Γ | MeV |
