@@ -17,7 +17,7 @@ For **quarkonium** states with the $\Sigma_g^+$ potential (denoted as `quarkoniu
 
 ### Hybrid $P^+_0$  (H3)
 
-For the **decoupled hybrid** at $J=0$ with the $\Sigma_u^-$ potential (denoted as `hybridPplus0` and named $nL_J$ or *H3*), the results include:
+For the **decoupled hybrid** at $J=0$ with the $\Sigma_u^-$ potential (denoted as `hybridPplus0` and named $nL_0$ or *H3*), the results include:
 
 #### Spectrum file columns
 | # | Quantity | Description | Units |
@@ -54,8 +54,7 @@ For the **decoupled hybrid** at $J=0$ with the $\Sigma_u^-$ potential (denoted a
 
 ### Hybrid $P^0$  (H2)
 
-For the **decoupled hybrid** at $J>0$ and $J=L$ with the $\Pi_u$ potential  (also named $p_1$, $d_2$, ... or *H2*), denoted as `hybridP0`,
-the results include:
+For the **decoupled hybrid** at $J>0$ and $J=L$ with the $\Pi_u$ potential (denoted as `hybridP0` and named $nL_J$ or *H2*), the results include:
 
 #### Spectrum file columns
 | # | Quantity | Description | Units |
@@ -90,8 +89,7 @@ the results include:
 
 ### Hybrid $P^{\pm}$  (H1)
 
-For the **coupled hybrid** at $J>0$ and $J=L\pm 1$ with $\Pi_u$ and $\Sigma_u^-$ potentials (also named $(s/d)_1$, $(p/f)_2$, ... or *H1*), denoted as `hybridPpm`,
-the results include:
+For the **coupled hybrid** at $J>0$ and $J=L\pm 1$ with $\Pi_u$ and $\Sigma_u^-$ potentials (denoted as `hybridPpm` and named $n(L-1/L+1)_J$, or *H1*), the results include:
 
 #### Spectrum file columns
 | # | Quantity | Description | Units |
@@ -138,6 +136,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
