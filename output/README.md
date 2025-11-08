@@ -127,8 +127,8 @@ For the **coupled hybrid** at $J>0$ and $J=L\pm 1$ with $\Pi_u$ and $\Sigma_u^-$
 
 ### Summary
 
-All `.dat` files use **column-based ASCII format**, easy to read from  
-MATLAB, Python, or C++, e.g.:
+All `.dat` files use **column-based ASCII format**, easy to read from MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
