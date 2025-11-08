@@ -123,7 +123,7 @@ For the **coupled hybrid** at $J>0$ and $J=L\pm 1$ with $\Pi_u$ and $\Sigma_u^-$
 - `C` is the coefficient of the dominant uncertainty source, this is the "Confining vs. Coulomb potential" in the reference $3(\sigma \langle r \rangle_Q+\mu)/\Delta E$  
 - For decay calculations, only results with `C < 1` shall be considered reliable.
 - We name $P^{+}$ and $P^{-}$ the two components of the hybrid wave function.
-- We name $Y_{Q}$ and $Y_{H}$ the total components of the quarkonium and hybrid wave function.
+- We name $Y_{Q}$ and $Y_{H}$ the total quarkonium and hybrid wave function.
 
 ### Summary
 
@@ -132,6 +132,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
