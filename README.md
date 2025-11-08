@@ -1,6 +1,6 @@
 # Hybrid Quarkonia
 
-This repository contains MATLAB codes to solve the **spectrum** and **wavefunctions** of quarkonium and hybrid states through numerical solutions of the Schrödinger equation. Our results in the reference are in the [output folder](./output/) .
+This repository contains MATLAB codes to solve the **spectrum** and **wavefunctions** of quarkonium and hybrid states through numerical solutions of the Schrödinger equation. Our results in the reference are in the [`output`](./output/)  folder.
 
 
 ---
