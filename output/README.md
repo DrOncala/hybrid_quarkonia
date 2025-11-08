@@ -97,8 +97,7 @@ For the **coupled hybrid** at $J>0$ and $J=L\pm 1$ with $\Pi_u$ and $\Sigma_u^-$
 | 8 | `Int_YHpYHp` |$\int P^{+}(r) \ P^{+}(r) dr$ — Hybrid normalization component | dimensionless |
 | 9 | `Int_YHpYHm` | $\int P^{+}(r) \ P^{-}(r) dr$ — Hybrid cross term integral | dimensionless |
 | 10 | `Int_YHmYHm` | $\int P^{-}(r) \ P^{-}(r) dr$ — Hybrid normalization component | dimensionless |
-> **Note:**  
-> We name $P^{+}$ and $P^{-}$ the two components of the hybrid wave function.
+
 
 #### Decay file columns
 | # | Quantity | Description | Units |
@@ -120,7 +119,7 @@ For the **coupled hybrid** at $J>0$ and $J=L\pm 1$ with $\Pi_u$ and $\Sigma_u^-$
 
 ---
 
-### Note  
+> ### Note  
 > `C` is the coefficient of the dominant uncertainty source, this is the "Confining vs. Coulomb potential" in the reference $3(\sigma \langle r \rangle_Q+\mu)/\Delta E$  
 > For decay calculations, only results with `C < 1` shall be considered reliable.
 > We name $P^{+}$ and $P^{-}$ the two components of the hybrid wave function.
@@ -133,6 +132,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
