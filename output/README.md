@@ -2,8 +2,7 @@
 
 ### Quarkonium
 
-For **quarkonium** states with the $\Sigma_g^+$ potential, denoted as `quarkonium`,  
-the spectrum file contains the following columns:
+For **quarkonium** states with the $\Sigma_g^+$ potential (denoted as `quarkonium` and names $nL$), the spectrum file contains the following columns:
 
 | # | Quantity | Description | Units |
 |---|-----------|--------------|--------|
@@ -18,8 +17,7 @@ the spectrum file contains the following columns:
 
 ### Hybrid $P^+_0$  (H3)
 
-For the **decoupled hybrid** at $J=0$ with the $\Sigma_u^-$ potential  (also named $p_0$ or *H3*), denoted as `hybridPplus0`,
-the results include:
+For the **decoupled hybrid** at $J=0$ with the $\Sigma_u^-$ potential (denoted as `hybridPplus0` and named $nL_J$ or *H3*), the results include:
 
 #### Spectrum file columns
 | # | Quantity | Description | Units |
@@ -140,6 +138,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
