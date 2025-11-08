@@ -132,14 +132,3 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
-
-
-
-
-
-
-
-
-
-
-
