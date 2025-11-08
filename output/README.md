@@ -89,7 +89,7 @@ For the **decoupled hybrid** at $J>0$ and $J=L$ with the $\Pi_u$ potential (deno
 
 ### Hybrid $P^{\pm}$  (H1)
 
-For the **coupled hybrid** at $J>0$ and $J=L\pm 1$ with $\Pi_u$ and $\Sigma_u^-$ potentials (denoted as `hybridPpm` and named $n(L-1/L+1)_J$, or *H1*), the results include:
+For the **coupled hybrid** at $J>0$ and $J=L\pm 1$ with $\Pi_u$ and $\Sigma_u^-$ potentials (denoted as `hybridPpm` and named $n(L^-/L^+)_J$, or *H1*), the results include:
 
 #### Spectrum file columns
 | # | Quantity | Description | Units |
@@ -136,6 +136,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
