@@ -46,10 +46,6 @@ For the **decoupled hybrid** at $J=0$ with the $\Sigma_u^-$ potential (denoted a
 | 12 | `Int_QQ` | $\int Y_Q(r) \ Y_Q(r) \ dr$ — Quarkonium normalization test | dimensionless |
 | 13 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | dimensionless |
 
-> **Note:**  
-> `C` is the coefficient of the dominant uncertainty source, this is the "Confining vs. Coulomb potential" in the reference $3(\sigma \langle r \rangle_Q+\mu)/\Delta E$  
-> For decay calculations, only results with `C < 1` shall be considered reliable.
-
 ---
 
 ### Hybrid $P^0$  (H2)
@@ -81,9 +77,6 @@ For the **decoupled hybrid** at $J>0$ and $J=L$ with the $\Pi_u$ potential (deno
 | 10 | `Int_YHYQ` | $\int Y_H(r)  \ Y_Q(r) \ dr$ — Overlap integral | dimensionless |
 | 11 | `Int_YQxYQ` |  $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium  expectation of position $\langle r \rangle_Q$| GeV⁻¹ |
 | 12 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | dimensionless |
-
-> **Note:**  
-> For decay calculations, only results with `C < 1` shall be considered reliable.
 
 ---
 
@@ -124,10 +117,14 @@ For the **coupled hybrid** at $J>0$ and $J=L\pm 1$ with $\Pi_u$ and $\Sigma_u^-$
 | 12 | `Int_Hm_Q` | $\int P^{-}(r) \ Y_Q(r)  \ dr$ — Overlap integral component | dimensionless |
 | 13 | `Int_QxQ` | $\int Y_Q(r) \ r \ Y_Q(r) \ dr$ — Quarkonium  expectation of position $\langle r \rangle_Q$| GeV⁻¹ |
 | 14 | `C` | $C = 3 (0.215 \langle r \rangle_Q - 0.028)/\Delta E$ | dimensionless |
-> **Note:**  
-> For decay calculations, only results with `C < 1` shall be considered reliable.
 
 ---
+
+### Note  
+> `C` is the coefficient of the dominant uncertainty source, this is the "Confining vs. Coulomb potential" in the reference $3(\sigma \langle r \rangle_Q+\mu)/\Delta E$  
+> For decay calculations, only results with `C < 1` shall be considered reliable.
+> We name $P^{+}$ and $P^{-}$ the two components of the hybrid wave function.
+> We name $Y_{Q}$ and $Y_{H}$ the total components of the quarkonium and hybrid wave function.
 
 ### Summary
 
@@ -136,6 +133,7 @@ MATLAB, Python, or C++, e.g.:
 
 ```matlab
 data = readmatrix('output/hybridPpm_decay.dat');
+
 
 
 
