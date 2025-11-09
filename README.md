@@ -92,5 +92,6 @@ This repository contains MATLAB codes to solve the **spectrum** and **wavefuncti
 ## 🧾 Citation
 
 If you use these codes or results, please cite the corresponding reference:  
-> **DOI:** [![DOI](https://zenodo.org/badge/1090599228.svg)](https://doi.org/10.5281/zenodo.17564180)
+
+[![DOI](https://zenodo.org/badge/1090599228.svg)](https://doi.org/10.5281/zenodo.17564180)
 
